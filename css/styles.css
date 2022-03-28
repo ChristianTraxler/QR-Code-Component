@@ -14,7 +14,8 @@ body {
     height: 496px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    margin: 50px auto;
+    margin: 130px auto 0 auto;
+    box-shadow: 0px 6px 20px -12px #888888;
 }
 
 .qr-code {
@@ -29,10 +30,12 @@ body {
 }
 
 .paragraphs {
+    position: relative;
     text-align: center;
     margin: auto;
     padding: 0 20px 0 20px;
     width: 85%;
+    top: 4%;
 }
 
 h2 {
